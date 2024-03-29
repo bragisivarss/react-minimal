@@ -1,5 +1,3 @@
-"use client";
-import Image from "next/image";
 import mynd from "../../public/mynd.jpg"
 
 const DATA = [
@@ -35,12 +33,6 @@ const HEADER = [
         img: mynd
     },
 ] as const;
-
-type JobProps = {};
-
-const Job = (props: JobProps) => {
-    return <div></div>;
-};
 
 type HeaderProps = {
     data: typeof HEADER;
